@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.ipynb
+# Data files - scraped data should generally not be committed
+*.csv
+*.json
+*.xml
+*.db
+*.sqlite3
+
+# Secrets
+.env
+*.env.*
+secrets.py
